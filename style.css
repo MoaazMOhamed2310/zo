@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Space Mono', monospace;
+}
+body{
+    /* background-color:#000000; */
+    height: auto;
+    width: auto;
+}
+img.humans {
+width: 655px;
+/*height: 636px;*/
+padding: 12px 60px;
+display: flex;
+justify-content: flex-start; 
+background-image: url(Picsart_22-01-27_22-20-27-371.jpg);
+background-repeat: no-repeat;
+}
+
+div.main-content {
+    background-color:white ;
+    background-size: 1200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+p.main {
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 65px;
+}
+#background{
+    position:fixed;
+    top: 0px;
+    z-index:-1;
+    width: 100%;
+    height: 50%;
+    background-color:#DD4A48;
+}
+.button{
+    background-color:#DD4A48;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    width: fit-content;
+    height: auto;
+    padding:5px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+.button:hover{
+    background-color: black;
+    color:whitesmoke;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@media only screen and (max-width: 650px) {
+div.main-content{
+        margin: 18px;
+        border-radius: 20px;
+        background-image: url(Picsart_22-02-11_04-06-47-495.jpg);
+        background-repeat: no-repeat;
+        height: fit-content;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        background-color:white ;
+    }
+p.main{
+        font-size: 20px;
+    }
+#image{
+    padding:33px 40px 40px 40px;
+    width: 340px;
+    height: 225px;
+}
+}
